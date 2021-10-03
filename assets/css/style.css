@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+/* hero image and cover text */
+
+#tech-addiction {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+#intro, #intro h2 {
+    color: rgba(255, 255, 255, 0.89);
+}
+
+#tech-addiction-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
+}
+
+#intro {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 73%;
+    height: 100px;
+    background-color: rgba(241, 201, 107, 0.3);
+    position: sticky;
+    margin: auto;
+}
+
+small {
+    font-style: italic;
+}
+
+#about {
+    height: 400px;
+    width: 75%;
+    margin: 30px 0 0 0;
+    width: 100%;
+    color: rgb(255, 251, 251);
+}
+
+#about-us-image {
+    background: url('../images/pexels-tima-miroshnichenko-5711163.jpg') no-repeat center center; 
+    height: 400px;
+}
+
+#about-us, #about-us h1 {
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    float: left;
+    margin-left: 10px;
+    opacity: 100%;
+}
+
+li {
+    list-style-type: none;
+}
