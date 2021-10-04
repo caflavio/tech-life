@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* headings */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -56,7 +56,7 @@ h1, h2 {
 
 }
 
-/* hero image and cover text */
+/* Intro */
 
 #tech-addiction {
     height: 600px;
@@ -90,6 +90,7 @@ h1, h2 {
 small {
     font-style: italic;
 }
+/* About */
 
 #about {
     height: 400px;
@@ -104,7 +105,7 @@ small {
 }
 
 #about-us, #about-us h2 {
-    color: rgba(3, 3, 3, 0.945);
+    color: rgb(255, 251, 251);
     text-align: center;
     padding-top: 30px;
     width: 100%;
@@ -127,23 +128,24 @@ small {
 
 /* Form */
 
-#sign {
-    height: 400px;
-    margin: 30px 0 0 0;
-    color: rgb(255, 251, 251);
-}
-
-
 #sign-up {
     background: url("../images/pexels-fauxels-3184183.jpg") no-repeat center center;
     height: 400px;
     width: 100%;
+    text-align: center;
+    color:rgb(255, 251, 251);
+  
 }
-/*
-clear: left;
-background-size: cover;
-    background-position: center;
-*/
+.signup-form{
+    display: block;
+    margin: 30px 0 0 0;
+}
+
+#sign-up h2 {
+    text-align: center;
+    color:rgb(240, 232, 232)
+}
+
 
 /* Footer */
 
