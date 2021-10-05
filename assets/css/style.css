@@ -90,7 +90,7 @@ h1, h2 {
 small {
     font-style: italic;
 }
-/* About */
+/* About us*/
 
 #about {
     position: relative;
@@ -106,8 +106,6 @@ small {
     width: 100%;
     opacity: 0.3;
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 #about-us {
@@ -147,16 +145,30 @@ small {
     width: 100%;
     text-align: center;
     color:rgb(255, 251, 251);
+    margin: 30px 0 0 0;
   
 }
 .signup-form{
-    display: block;
-    margin: 30px 0 0 0;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
 }
 
 #sign-up h2 {
     text-align: center;
-    color:rgb(240, 232, 232)
+    color:rgb(19, 18, 18)
+}
+
+
+.column{
+    width:100%;
+    display:inline-block;
+    
 }
 
 
