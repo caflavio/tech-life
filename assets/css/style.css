@@ -93,36 +93,49 @@ small {
 /* About */
 
 #about {
+    position: relative;
     height: 400px;
     width: 100%;
     margin: 30px 0 0 0;
-    color: rgb(255, 251, 251);
+    color: rgb(7, 7, 1);
 }
 
 #about-us-image {
     background: url('../images/pexels-tima-miroshnichenko-5711163.jpg') no-repeat center center;
-    height: 400px;
-}
-
-#about-us, #about-us h2 {
-    color: rgb(255, 251, 251);
-    text-align: center;
-    padding-top: 30px;
+    height: 100%;
     width: 100%;
-    float: left;
-    margin-left: 10px;
-    opacity: 100%;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-#about-us li, #about-us p {
-    list-style-type: none;
-    text-align: left;
-    margin-left: 20%;
+#about-us {
+    padding-top: 70px;
+}
+
+#about h2 {
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+    margin-left: 10px;
+    position: absolute;
+    font-size: xx-large;
 }
 
 #about-us p {
     font-size: large;
     font-weight: bold;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+#about-us li {
+    position: static;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 22%;
 }
 
 
