@@ -59,23 +59,22 @@ h1, h2 {
 /* Intro */
 
 #tech-addiction {
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
-   
 }
 
-#intro, #intro h2 {
+.intro, .intro h2 {
     color: rgba(255, 255, 255, 0.89);
 }
 
 #tech-addiction-image {
     height: 600px;
-    width: 100%;
     background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
+    position: relative;
 }
 
-#intro {
+.intro {
     font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -90,11 +89,19 @@ h1, h2 {
 small {
     font-style: italic;
 }
+
+
+iframe {
+    position: absolute;
+    bottom: 2%;
+    right: 13%;
+}
+
 /* About us*/
 
 #about {
     position: relative;
-    height: 400px;
+    height: 600px;
     width: 100%;
     margin: 30px 0 0 0;
     color: rgb(7, 7, 1);
@@ -141,7 +148,7 @@ small {
 
 #sign-up {
     background: url("../images/pexels-fauxels-3184183.jpg") no-repeat center center;
-    height: 400px;
+    height: 500px;
     width: 100%;
     text-align: center;
     color:rgb(15, 15, 15);
@@ -173,8 +180,12 @@ label {
 
 input {
     width: 400px;
-    height: 25px;
+    text-align: left;
+    padding-right: 12px;
     background-color: #ccc;
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
     margin-top: 10px;
     border: 3px solid black;
 }
@@ -185,20 +196,20 @@ select {
     background-color: #ccc;
     margin-top: 10px;
     border: 3px solid black;
-
-   
+    text-align: center;
 }
 
 .join-button{
     float:none;
-    width: 100%;
+    width: 400px;
     margin-top: 10px;
     border: 3px solid black;
+    text-align: center;
 }
 
 .phone {
     font-weight: bold;
-    width: 98%;
+    width: 80%;
     text-align: center;
     margin-top: 10px;
     height: 40px;
@@ -227,3 +238,5 @@ footer{
     padding: 5%;
     color: #3a3a3a;
 }
+
+
