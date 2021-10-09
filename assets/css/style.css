@@ -110,23 +110,21 @@ small {
 }
 
 #video h2 {
-        color: rgba(255, 255, 255, 0.89);
-        font-size: 100%;
+        width: 60%;
+        font-size: 200%;
+        font-weight: 900;
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
-        width: 90%;
-        height: 25%;
-        background-color: rgba(60, 60, 60, 0.6);
+        color: rgba(60, 60, 60, 0.6);
         position: sticky;
-        margin: auto;
-        padding: 5px 5px 5px 5px;
+        margin: 150px 10px 30px 150px;
 }
 
  #video iframe {
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    left: 150px;
 }
 
 /* About us*/
