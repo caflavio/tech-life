@@ -119,6 +119,10 @@ small {
     left: 150px;
 }
 
+iframe {
+    border: none;
+}
+
 /* About us*/
 
 #about {
