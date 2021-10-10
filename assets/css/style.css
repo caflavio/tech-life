@@ -14,7 +14,7 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -25,7 +25,6 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
-    
 }
 
 #menu {
@@ -36,8 +35,8 @@ h1, h2 {
 #menu, #logo {
     line-height: 75px;
     position: sticky;
-   top: 0;
-   z-index: 100;
+    top: 0;
+    z-index: 100;
 }
 
 #menu li {
@@ -54,21 +53,12 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-
-}
-
 /* Intro */
 
 #tech-addiction {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     display: flex;
-    margin-right: 30%;
-    margin-top: 30px;
 }
 
 .intro, .intro h2 {
@@ -81,7 +71,7 @@ h1, h2 {
     position: relative;
     width: 50%;
     flex: 1;
-    margin-left: 10%;
+    margin-left: 12.5%;
 }
 
 .intro {
@@ -110,15 +100,15 @@ small {
 }
 
 #video h2 {
-        width: 60%;
-        font-size: 200%;
-        font-weight: 900;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: rgba(60, 60, 60, 0.6);
-        position: sticky;
-        margin: 150px 10px 30px 150px;
+    width: 60%;
+    font-size: 200%;
+    font-weight: 900;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(60, 60, 60, 0.6);
+    position: sticky;
+    margin: 150px 10px 30px 150px;
 }
 
  #video iframe {
@@ -131,7 +121,7 @@ small {
 
 #about {
     position: relative;
-    height: 600px;
+    height: 800px;
     width: 100%;
     margin: 30px 0 0 0;
     color: rgb(7, 7, 1);
@@ -141,20 +131,26 @@ small {
     background: url('../images/pexels-tima-miroshnichenko-5711163.jpg') no-repeat center;
     height: 100%;
     width: 100%;
-    opacity: 0.3;
+    opacity: 1;
     position: absolute;
-    background-color: black;
 }
 
 #about-us {
-    padding-top: 70px;
+    margin-top: 40px;
+    font-size: large;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    padding: 40px;
 }
 
 #about h2 {
     text-align: center;
     padding-top: 15px;
+    color: #fff;
     width: 100%;
-    margin-left: 10px;
     position: absolute;
     font-size: xx-large;
 }
@@ -163,7 +159,6 @@ small {
     font-size: large;
     font-weight: bold;
     text-align: left;
-    margin-left: 20%;
     margin-top: 10px;
 }
 
@@ -171,23 +166,22 @@ small {
     position: static;
     list-style-type: none;
     text-align: left;
-    margin-left: 22%;
+    margin-top: 10px;
+    margin-left: 8%;
 }
-
 
 /* Form */
 
 #sign-up {
     background: url("../images/pexels-fauxels-3184183.jpg") no-repeat center center;
-    height: 600px;
+    height: 800px;
     width: 100%;
     color:rgb(15, 15, 15);
     margin: 30px 0 0 0;
-    background-color: black;
 }
 
 .signup-form {
-    margin: 40px 10% 0 0;
+    margin: 90px 10% 0 0;
     font-size: large;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -240,7 +234,6 @@ select {
     width: 200px;
     margin-top: 10px;
     text-align: center;
-
 }
 
 .join-button:hover {
@@ -248,17 +241,12 @@ select {
     color: rgba(60, 60, 60);
 }
 
-.phone {
-
-    font-weight: bold;
-}
- /*   width: 80%;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-}
 
 /* Footer */
+
+.phone {
+    font-weight: bold;
+}
 
 footer{
     height: 150px;
@@ -266,7 +254,6 @@ footer{
 
 .social-networks{
     text-align: center;
-
 }
 
 .social-networks li{
