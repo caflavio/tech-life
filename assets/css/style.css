@@ -60,20 +60,20 @@ h1 {
 #tech-addiction {
     height: 100%;
     width: 100%;
-    display: flex;
+    overflow: hidden;
+    position: relative;
 }
 
 .intro, .intro h2 {
     color: rgba(255, 255, 255, 0.89);
+    text-align: center;
 }
 
 #tech-addiction-image {
-    height: 800px;
+    height: 500px;
     background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
-    position: relative;
-    width: 50%;
-    flex: 1;
-    margin-left: 12.5%;
+    width: 100%;
+    float: left;
 }
 
 .intro {
@@ -81,7 +81,7 @@ h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 90%;
+    width: 45%;
     height: 25%;
     background-color: rgba(60, 60, 60, 0.6);
     position: sticky;
@@ -96,9 +96,12 @@ small {
 #video {
     height: 800px;
     width: 50%;
-    flex: 1;
+    float: right;
     margin-right: 10%;
-    position:relative;
+}
+
+#video iframe {
+    bottom: 10px;
 }
 
 #video h2 {
@@ -110,13 +113,6 @@ small {
     letter-spacing: 2px;
     color: rgba(60, 60, 60, 0.6);
     position: sticky;
-    margin: 150px 10px 30px 150px;
-}
-
- #video iframe {
-    position: absolute;
-    bottom: 10px;
-    left: 150px;
 }
 
 iframe {
@@ -138,7 +134,7 @@ iframe {
     height: 100%;
     width: 100%;
     opacity: 1;
-    position: absolute;
+    position: relative;
 }
 
 #about-us {
@@ -146,7 +142,7 @@ iframe {
     font-size: large;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    position: absolute;
+    position: relative;
     left: 40%;
     top: 10%;
     padding: 40px;
@@ -157,7 +153,6 @@ iframe {
     padding-top: 15px;
     color: #fff;
     width: 100%;
-    position: absolute;
     font-size: xx-large;
 }
 
@@ -184,6 +179,7 @@ iframe {
     width: 100%;
     color:rgb(15, 15, 15);
     margin: 30px 0 0 0;
+    position: relative;
 }
 
 .signup-form {
@@ -269,6 +265,20 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #tech-addiction  {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #tech-addiction-image, #video {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
