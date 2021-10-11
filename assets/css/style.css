@@ -63,7 +63,7 @@ h1 {
     overflow: hidden;
     position: relative;
     display: flex;
-    left: 8.5%;
+    left: 12.5%;
 }
 
 .intro, .intro h2 {
@@ -75,8 +75,6 @@ h1 {
     height: 500px;
     background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
     width: 50%;
-    background-color: teal;
-    
 }
 
 .intro {
