@@ -68,22 +68,21 @@ h1 {
 
 .intro, .intro h2 {
     color: rgba(255, 255, 255, 0.89);
-    text-align: center;
+
 }
 
 .tech-addiction-image {
-    height: 500px;
+    height: 700px;
     background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
     flex: 50%;
     float: left;
+    background-color: aqua;
 }
 
 .intro {
     font-size: 80%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 90%;
     height: 20%;
     background-color: rgba(60, 60, 60, 0.6);
     position: sticky;
@@ -94,12 +93,13 @@ h1 {
 .video {
     height: 500px;
     flex: 50%;
+    background-color:bisque;
 }
 
 .video iframe {
     margin: 70px 0 0 22.5%;
     width: 50%;
-    height: 70%;
+    height: 60%;
 }
 
 .video h2 {
@@ -303,6 +303,17 @@ footer{
     height: 25%;
         }
 }
+
+@media screen and (max-width: 450px){
+    .intro {
+        height: 25%;
+            }
+    .video iframe {
+        margin: 30px 0 0 15%;
+        width: 70%;
+        height: 60%;
+            }        
+    }
 
 /* For small screens sizes from 800px wide and down 
 .tech-addiction  {
