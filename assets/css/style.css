@@ -136,7 +136,7 @@ small {
 }
 
 .about-us {
-    margin-top: 40px;
+
     font-size: large;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -144,7 +144,8 @@ small {
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    padding: 40px;
+    padding: 20px;
+    
 }
 
 .about h2 {
@@ -152,7 +153,7 @@ small {
     padding-top: 15px;
     color: #fff;
     width: 100%;
-    font-size: xx-large;
+    font-size: 36px;
     position: relative;
 }
 
@@ -226,7 +227,7 @@ select {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+
     height: 25px;
     text-align: center;
 }
@@ -306,13 +307,40 @@ footer{
 
 @media screen and (max-width: 450px){
     .intro {
-        height: 25%;
+        height: 20%;
             }
     .video iframe {
         margin: 30px 0 0 15%;
         width: 70%;
-        height: 60%;
-            }        
+        height: 54%;
+            }     
+    small {
+        margin-left: auto;
+            }   
+
+    .about-us {
+        margin-top: 10px;
+        width: 80%;
+            }
+
+    .signup-form {
+        width: 90%;
+            }
+    
+
+       /*     margin: 90px 10% 0 0;
+            font-size: large;
+            color: #fff;
+            background-color: rgba(60, 60, 60, 0.6);
+            max-width: 500px;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translateX(-50%);
+            padding: 2% 
+        }
+  */
+            
     }
 
 /* For small screens sizes from 800px wide and down 
