@@ -300,9 +300,27 @@ footer{
 }
 
 @media screen and (max-width: 600px){
-.intro {
-    height: 25%;
-        }
+    .intro {
+        height: 16%;
+            }
+    .video iframe {
+        margin: 30px 0 0 15%;
+        width: 70%;
+        height: 62%;
+                }     
+    .video h2 {
+        margin-left: 10px;
+                }
+    small {
+        margin-left: 10px;
+            } 
+    .about-us {
+        margin-top: 10px;
+        width: 80%;
+                }
+    .signup-form {
+        width: 90%;
+                } 
 }
 
 @media screen and (max-width: 450px){
@@ -313,9 +331,12 @@ footer{
         margin: 30px 0 0 15%;
         width: 70%;
         height: 54%;
-            }     
+            } 
+    .video h2 {
+        margin-left: 10px;
+              }    
     small {
-        margin-left: auto;
+        margin-left: 10px;
             }   
 
     .about-us {
