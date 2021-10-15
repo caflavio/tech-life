@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -29,11 +28,16 @@ h1 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
 }
 
-#menu,
 #logo {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: auto;
+}
+
+#menu {
     line-height: 75px;
     position: sticky;
     top: 0;
@@ -72,27 +76,23 @@ h1 {
     transform: translateX(-50%);
 }
 
-.intro,
-.intro h2 {
-    color: rgba(255, 255, 255, 0.89);
-    margin-left: 10px;
-}
-
 .intro h2 {
     margin-left: 10px;
 }
 
 .tech-addiction-image {
     height: 700px;
-    background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
+    background: url('../images/intro.webp') no-repeat center center;
     flex: 50%;
     float: left;
 }
 
 .intro {
+    max-width: 962px;
+    color: #fafafa;
+    margin-left: 10px;
     font-size: 80%;
     font-family: Oswald, sans-serif;
-    text-transform: uppercase;
     height: 12.5%;
     background-color: rgba(60, 60, 60, 0.6);
     position: sticky;
@@ -121,7 +121,6 @@ h1 {
     height: 60%;
 }
 
-
 small {
     font-style: italic;
     margin-left: 10px;
@@ -138,7 +137,7 @@ small {
 }
 
 .about-us-image {
-    background: url('../images/pexels-tima-miroshnichenko-5711163.jpg') no-repeat center;
+    background: url('../images/aboutus.webp') no-repeat center;
     height: 100%;
     width: 100%;
     opacity: 1;
@@ -186,7 +185,7 @@ small {
 /* Form */
 
 .sign-up {
-    background: url("../images/pexels-fauxels-3184183.jpg") no-repeat center center;
+    background: url("../images/form.webp") no-repeat center center;
     height: 800px;
     width: 100%;
     color: rgb(15, 15, 15);
@@ -266,12 +265,14 @@ select {
 .contact {
     color: rgb(15, 15, 15);
     margin: 30px 0 0 0;
-    font-size: 250%;
+    font-size: 36px;
+    text-align: center;
 }
 
 .phone {
     color: rgb(15, 15, 15);
-    font-size: 150%;
+    font-size: 24px;
+    text-align: center;
 }
 
 .social-networks {
@@ -293,6 +294,7 @@ select {
 @media screen and (max-width: 1200px) {
     .intro {
         height: 12%;
+        max-width: 950px;
     }
 
     .tech-addiction-image,
@@ -321,6 +323,7 @@ select {
 @media screen and (max-width: 950px) {
     .intro {
         height: 13%;
+        width: 100%;
     }
 
     #menu {
@@ -361,6 +364,9 @@ select {
         margin-top: 10px;
         width: 80%;
     }
+    .social-networks i {
+        font-size: 230%;
+    }
 }
 
 /* For medium screens sizes from 450px wide and down */
@@ -379,15 +385,37 @@ select {
         margin-top: 10px;
         width: 80%;
     }
+    .social-networks i {
+        padding: 1.5% 2.5% 0 2.5%;
+        font-size: 200%;
+    }
+    
 }
 
 /* For medium screens sizes from 350px wide and down */
 @media screen and (max-width: 350px) {
+    #logo {
+        font-size: 230%;
+    }
+    
+    #menu {
+        font-size: 100%;
+    }
+
     .intro {
-        height: 30%;
+        height: 18%;
     }
 
     .video h2 {
         font-size: 22px;
+    }
+
+    #menu li {
+        margin-right: 15px;
+    }
+
+    .social-networks i {
+        padding: 1.5% 2.5% 0 2.5%;
+        font-size: 150%;
     }
 }
