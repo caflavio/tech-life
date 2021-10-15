@@ -32,7 +32,8 @@ h1 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     position: sticky;
     top: 0;
@@ -57,6 +58,7 @@ h1 {
 
 /* Intro */
 
+
 #tech-addiction {
     height: 100%;
     width: 100%;
@@ -64,12 +66,19 @@ h1 {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1924px;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+
 }
 
-.intro, .intro h2 {
+.intro,
+.intro h2 {
     color: rgba(255, 255, 255, 0.89);
     margin-left: 10px;
 }
+
 .intro h2 {
     margin-left: 10px;
 }
@@ -79,14 +88,13 @@ h1 {
     background: url('../images/pexels-roman-odintsov-4555321.jpg') no-repeat center center;
     flex: 50%;
     float: left;
-    background-color: aqua;
 }
 
 .intro {
     font-size: 80%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    height: 20%;
+    height: 12.5%;
     background-color: rgba(60, 60, 60, 0.6);
     position: sticky;
     margin: auto;
@@ -94,27 +102,26 @@ h1 {
 }
 
 .video {
-    height: 500px;
+    height: 700px;
     flex: 50%;
-    background-color: bisque;
-}
-
-.video iframe {
-    margin: 70px 0 0 22.5%;
-    width: 50%;
-    height: 60%;
 }
 
 .video h2 {
     width: 90%;
-    font-size: 150%;
+    font-size: 145%;
     font-weight: 900;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: rgba(60, 60, 60, 0.6);
-    position: sticky;
     margin-left: 10px;
 }
+
+.video iframe {
+    margin: 20% 0 0 22.5%;
+    width: 70%;
+    height: 60%;
+}
+
 
 small {
     font-style: italic;
@@ -149,7 +156,7 @@ small {
     top: 10%;
     transform: translateX(-50%);
     padding: 20px;
-    
+
 }
 
 .about h2 {
@@ -183,7 +190,7 @@ small {
     background: url("../images/pexels-fauxels-3184183.jpg") no-repeat center center;
     height: 800px;
     width: 100%;
-    color:rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
     margin: 30px 0 0 0;
     position: relative;
 }
@@ -194,6 +201,7 @@ small {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
+    width: 90%;
     position: absolute;
     left: 50%;
     top: 10%;
@@ -201,7 +209,7 @@ small {
     padding: 2%
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
     text-align: center;
@@ -220,7 +228,7 @@ small {
 
 .text-input:hover {
     border-color: rgba(60, 60, 60);
-    color:white;
+    color: white;
 }
 
 ::placeholder {
@@ -260,19 +268,19 @@ select {
     font-weight: bold;
 }
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 250%;
     margin: 1%;
     padding: 5%;
@@ -283,9 +291,10 @@ footer{
 @media screen and (max-width: 1200px) {
     .intro {
         height: 12%;
-            }
-            
-    .tech-addiction-image, .video  {
+    }
+
+    .tech-addiction-image,
+    .video {
         flex: 100%;
         left: 0;
     }
@@ -294,72 +303,89 @@ footer{
         margin: 50px 0 0 20%;
         width: 60%;
         height: 70%;
-                } 
+    }
+
+    .about-us {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .signup-form {
+        width: 90%;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     .intro {
         height: 13%;
-            }
+    }
 
-    #menu{
+    #menu {
         flex-direction: column;
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
+
     .video iframe {
-        margin: 25px 0 0 15%;
+        margin: 10% 0 0 15%;
         width: 75%;
         height: 70%;
-                } 
+    }
+
+    .about-us {
+        margin-top: 10px;
+        width: 80%;
+    }
 }
 
 /* For medium screens sizes from 600px wide and down */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .intro {
         height: 16%;
-            }
+    }
+
     .video iframe {
         margin-left: 15%;
         margin-bottom: auto;
         width: 70%;
         height: 62%;
-                }     
+    }
+
     .about-us {
         margin-top: 10px;
         width: 80%;
-                }
-    .signup-form {
-        width: 90%;
-                } 
+    }
 }
 
 /* For medium screens sizes from 450px wide and down */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     .intro {
         height: 20%;
-            }
+    }
+
     .video iframe {
         margin: 15px 0 0 15%;
         width: 70%;
         height: 54%;
-            }
+    }
+
     .about-us {
         margin-top: 10px;
         width: 80%;
-            }
-    .signup-form {
-        width: 90%;
-            }
+    }
 }
 
 /* For medium screens sizes from 350px wide and down */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
+    .intro {
+        height: 30%;
+    }
+
     .video h2 {
         font-size: 22px;
-              }    
+    }
 }
