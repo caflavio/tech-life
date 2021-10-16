@@ -70,6 +70,53 @@ Users can find information to learn more about Tech in our life: Introduction wi
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcaflavio.github.io%2Ftech-life%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  ### Unfixed Bugs
+  ### Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  - __Solved bugs__
+
+- I used the link provided by youtube to publish the video, but I realized that it came with the predefined width and height, so I wasn't able to adjust the video: ("iframe width="560" height="315" src="https://www.youtube.com/embed/qQ-PUXPVlos"), I removed the  width and height from the iframe and adjusted the size in css.
+
+- I was having trouble centering the text in the About Us section, because when I checked the code on smaller screens it was not centered
+    Before:    
+    left: 40%;
+    top: 10%;
+    padding: 40px;
+    
+    After:
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+
+- The intro session wasn't getting the same size as the other sessions because it used two div, so the frame was with the full size of the screen, I made two changes to solve the problem:
+    Before:
+    #tech-addiction {width: 1920px;}
+    After (A max-width was included to make the session with the size of the others and the width was changed to 100%):
+    #tech-addiction {width: 100%; max-width: 1924px;}
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In GitHub, navigate to my https://github.com/caflavio/tech-life repository and clicked Settings.  
+    - In the GitHub repository Settings tab, clicked in Pages in the left Menu
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://caflavio.github.io/tech-life/index.html
+
+## Credits
+
+I would like to thank my mentor who helped me with some tips when I was stuck creating the responsive part of the site.
+Also to my cousin Patrick who answered some questions in the development of the site. 
+
+### Content 
+
+- The validation form were used from [Code Intitute](https://formdump.codeinstitute.net/)
+- The font in Intro was used from [Google] (https://fonts.googleapis.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the page are from [Pexels]: (https://www.pexels.com/)
+- The photos used on the page were converted to WebP on [OnlineConvert]: (https://www.online-convert.com)
+- The video used on the Intro section is from [TEDChannel]: (https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug)
+- The text used on the Intro section is from [JaronLanier]: (http://www.jaronlanier.com/gadgetwebresources.html)
