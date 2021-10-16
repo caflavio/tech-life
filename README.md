@@ -1,7 +1,7 @@
 # Technology in our life
 
 The Technology in our life website is a page for people addicted to technology, people who are getting away from personal relationships in favor of virtual ones.
-The idea was to create a simple and straightforward page that did not need a vast content, considering that the focus is to reduce the use of technology 
+The idea was to create a simple and straightforward page that did not need a vast content, considering that the focus is to reduce the use of technology, however it was possible to apply practically all the HTML and CSS content of the course.
 
 Users can find information to learn more about Tech in our life: Introduction with a video by Jaron Lanier for TED, talking about technology in our lives, About us, with information about what we offer, sign up form and session times and our contacts. Our focus is to help people balance their digital and in-person lives. 
 ![Responsice Mockup](https://github.com/caflavio/tech-life/blob/main/assets/images/readme/mockup.png)
