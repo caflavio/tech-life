@@ -44,7 +44,7 @@ Users can find information to learn more about Tech in our life: Introduction wi
     - You will be required to provide your full name and email address.
     - The user will be able to see when and where the meetings will take place, the duration of each session or speech. 
 
-![Sign Up](https://github.com/caflavio/tech-life/blob/main/assets/images/readme/signup.png)
+![Sign Up](https://github.com/caflavio/tech-life/blob/main/assets/images/readme/form.png)
 
 - __Contact__
 
