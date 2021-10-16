@@ -81,22 +81,15 @@ Users can find information to learn more about "Technology in our life: Introduc
 - I used the link provided by youtube to publish the video, but I realized that it came with the predefined width and height, so I wasn't able to adjust the video: ("iframe width="560" height="315"), I removed the width and height from the iframe and adjusted the size in CSS.
 - I was having trouble centering the text in the "About Us" section, because when I checked the code on smaller screens it was not centered.
     
-    Before:    
-    left: 40%;
-    top: 10%;
-    padding: 40px;
+    Before: left: 40%; top: 10%; padding: 40px;
     
-    After:
-    left: 50%;
-    top: 10%;
-    transform: translateX(-50%);
+    After: left: 50%; top: 10%; transform: translateX(-50%);
+    
 - The intro session wasn't getting the same size as the other sessions because it used two div, so the frame was with the full size of the screen, I made two changes to solve the problem:
     
-    Before:
-    #tech-addiction {width: 1920px;}
+    Before: #tech-addiction {width: 1920px;}
     
-    After (A max-width was included to make the session with the size of the others and the width was changed to 100%):
-    #tech-addiction {width: 100%; max-width: 1924px;}
+    After (A max-width was included to make the session with the size of the others and the width was changed to 100%): #tech-addiction {width: 100%; max-width: 1924px;}
 
 
 ## Deployment
